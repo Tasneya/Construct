@@ -1,0 +1,508 @@
+/*================ Extra small devices ================*/
+@media (max-width:575.98px) {
+	body {
+		overflow-x: hidden;
+	}
+
+	.navbar-light .navbar-toggler {
+		border-color: transparent;
+		color: #f6D014;
+	}
+
+	.navbar-light .navbar-toggler:focus {
+		outline: none;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+		text-align: center;
+	}
+
+	.navbar-expand-lg .navbar-nav .nav-link:after {
+		display: none;
+	}
+
+	.navbar {
+		background: #111;
+	}
+
+	#about {
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
+
+	.bnr-txt h1 {
+		font-size: 15px;
+
+	}
+
+	.bnr-txt p {
+		display: none;
+	}
+
+	.bnr-txt {
+		top: -81px;
+		left: 41px;
+	}
+
+	.about-text h1 {
+		font-size: 48px;
+		padding-top: 40px;
+	}
+
+	.about-text p {
+		padding-bottom: 40px;
+	}
+
+
+	.about-top p {
+		padding-bottom: 0;
+	}
+
+	.pro-heading h1 {
+		font-size: 38px;
+	}
+
+	#project {
+		padding-bottom: 40px;
+	}
+
+	.pro-bar {
+		padding-left: 0px;
+	}
+
+	#team {
+		display: none;
+	}
+
+	.pro-text h1 {
+		font-size: 26px;
+	}
+
+	.blog-text h3 {
+		font-size: 29px;
+	}
+
+	.btn1 {
+		font-size: 11px;
+		width: 104px;
+		height: 36px;
+		margin-top: 0px;
+		border-radius: 40px;
+		margin-bottom: 20px;
+	}
+	
+	#testimonial {
+		padding-top: 80px;
+	}
+
+	.srvs-text {
+		padding-bottom: 40px;
+	}
+	.srvs-pic {
+		padding-top: 50px;
+	}
+	.test-pic {
+		top: -245;
+		left: 50%;
+	}
+
+	.slide-right i {
+		top: -106px;
+		left: 151px;
+	}
+
+	.slide-left i {
+		top: -106px;
+		left: 91px;
+	}
+
+	.brochure-text h1 {
+		font-size: 43px;
+	}
+
+	#about-page .about-pic {
+		padding-top: 0px;
+	}
+
+	#about-page .about-us {
+		padding-top: 10px;
+	}
+
+	#about-page .contact-text h4 {
+		padding-top: 0;
+	}
+
+	#brochure {
+		padding-bottom: 0;
+	}
+
+	.blog-header h1 {
+		font-size: 44px;
+	}
+
+	.port-text h1 {
+		font-size: 43px;
+	}
+
+	#portfolio {
+		padding-bottom: 40px;
+	}
+
+	#about-page #blog {
+		padding-bottom: 0;
+	}
+	#about-page #video {
+		margin-top: 40px;
+	}
+	
+}
+
+/*================ Small devices ============*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.navbar-light .navbar-toggler {
+		border-color: transparent;
+		color: #f6D014;
+	}
+
+	.navbar-light .navbar-toggler:focus {
+		outline: none;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+		text-align: center;
+	}
+
+	.navbar-expand-lg .navbar-nav .nav-link:after {
+		display: none;
+	}
+
+	.navbar {
+		background: #111;
+	}
+
+	.btn1 {
+		font-size: 11px;
+		width: 104px;
+		height: 36px;
+		margin-top: 0px;
+		border-radius: 40px;
+		margin-bottom: 20px;
+	}
+
+	.about-text h1 {
+		font-size: 48px;
+		padding-top: 40px;
+	}
+
+	.about-text p {
+		padding-bottom: 40px;
+	}
+
+	.about-top p {
+		padding-bottom: 0;
+	}
+
+	.bnr-txt h1 {
+		font-size: 20px;
+
+	}
+
+	.bnr-txt p {
+		display: none;
+	}
+
+	.bnr-txt {
+		top: -124px;
+		left: 57px;
+	}
+
+
+	.pro-heading h1 {
+		font-size: 60px;
+	}
+
+	#project {
+		padding-bottom: 40px;
+	}
+
+	.test-pic {
+		top: -240px;
+		left: 50%;
+	}
+	.blog-pic {
+		padding-top: 40px;
+	}
+	#video {
+		margin-top: 40px;
+	}
+
+	#team {
+		display: none;
+	}
+
+	.pro-text h1 {
+		font-size: 45px;
+	}
+
+	#portfolio {
+		padding-bottom: 100px;
+		padding-top: 0;
+	}
+
+	
+	.srvs-pic {
+		padding-top: 50px;
+	}
+	#about-page .srvs-pic {
+		padding-top: 30px;
+	}
+
+	#testimonial {
+		padding-top: 80px;
+	}
+
+	.slide-right i {
+		top: -106px;
+		left: 282px;
+	}
+
+	.slide-left i {
+		top: -106px;
+		left: 218px;
+	}
+
+
+	#blog {
+		padding-bottom: 0;
+
+	}
+
+	#about-page .contact-text h4 {
+		padding-top: 40px;
+	}
+
+	#about-page .about-pic {
+		padding-top: 0;
+	}
+
+	#about-page .about-us {
+		padding-top: 30px;
+	}
+
+	.brochure-text h1 {
+		font-size: 48px;
+	}
+
+	#about-page #brochure {
+		padding-bottom: 0;
+	}
+
+	#about-page #video {
+		margin-top: 80px;
+	}
+}
+
+/*======================= Medium devices =================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.navbar-light .navbar-toggler {
+		border-color: transparent;
+		color: #f6D014;
+	}
+
+	.navbar-light .navbar-toggler:focus {
+		outline: none;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+		text-align: center;
+	}
+
+	.navbar-expand-lg .navbar-nav .nav-link:after {
+		display: none;
+	}
+
+	.navbar {
+		background: #111;
+	}
+
+	.bnr-txt h1 {
+		font-size: 35px;
+	}
+
+	.bnr-txt {
+		top: -179px;
+		left: 82px;
+	}
+
+	.bnr-txt p {
+		display: none;
+	}
+
+	.about-text h1 {
+		font-size: 48px;
+		padding-top: 40px;
+	}
+
+	.about-text p {
+		padding-bottom: 40px;
+	}
+
+
+	.about-top p {
+		padding-bottom: 0;
+	}
+
+	.pro-heading h1 {
+		font-size: 60px;
+	}
+
+	#project {
+		padding-top: 50px;
+		padding-bottom: 40px;
+	}
+
+	.test-pic {
+		top: -240px;
+		left: 50%;
+	}
+	.blog-pic {
+		padding-top: 50px;
+	}
+	#video {
+		margin-top: 80px;
+	}
+
+	#team {
+		display: none;
+	}
+
+	.pro-text h1 {
+		font-size: 45px;
+	}
+
+	.pro-bar {
+		position: absolute;
+		top: 35px;
+		left: 50px;
+	}
+
+	#srvs {
+		margin-bottom: 50px;
+	}
+	
+	.srvs-pic {
+		padding-top: 50px;
+	}
+
+	#portfolio {
+		padding-bottom: 100px;
+		padding-top: 40px;
+	}
+
+	#blog {
+		background: #f7f7f7;
+		padding-bottom: 100px;
+	}
+
+	#blog {
+		padding-bottom: 0;
+	}
+
+	#about-page #video {
+		margin-top: 50px;
+	}
+
+	.about-pic {
+		padding-top: 50px;
+	}
+
+	.slide-right i {
+		top: -106px;
+		left: 340px;
+	}
+
+	.slide-left i {
+		top: -106px;
+		left: 275px;
+	}
+
+	#about-page #srvs {
+		margin-bottom: 0;
+	}
+	#about-page #testimonial {
+		padding-top: 40px;
+	}
+}
+
+/*========================= Large devices ======================*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	.navbar-light .navbar-toggler:focus {
+		outline: none;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+		text-align: center;
+	}
+
+	.navbar-expand-lg .navbar-nav .nav-link:after {
+		display: none;
+	}
+
+	.navbar {
+		background: #111;
+	}
+
+	.bnr-txt h1 {
+		font-size: 45px;
+	}
+
+	.bnr-txt {
+		top: -322px;
+		left: 86px;
+	}
+
+	.pro-bar {
+		top: -384px;
+		left: 550px;
+	}
+
+	.test-pic {
+		left: 50%;
+	}
+
+
+	#about-page .srvs-text h5 {
+		font-size: 17px;
+		padding-left: 30px;
+	}
+
+	#about-page .srvs-text p {
+		padding-left: 30px;
+	}
+
+	#about-page .ok {
+		margin-left: 30px;
+	}
+	#about-page .pro-text h1 {
+	font-size: 39px;
+}
+	
+	.srvs-pic {
+		padding-top: 50px;
+	}
+	.blog-text h3 {
+	font-size: 29px;
+}
+
+}
+
+/*========================= Extra large devices ======================*/
+@media (min-width: 1200px) {
+	.bnr-txt {
+	position: absolute;
+	top: -440px;
+	left: 19px;
+}
+}

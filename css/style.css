@@ -1,0 +1,1373 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+
+/*========== navbar start ========*/
+.navbar-light .navbar-nav .nav-link {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 14px;
+	color: #fff;
+	transition: all linear .3s;
+	position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #f6D014;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:after {
+	position: absolute;
+	content: '';
+	width: 0;
+	height: 0px;
+	background: #f6D014;
+	top: -8px;
+	left: 0;
+	opacity: 0;
+	transition: all linear .3s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover:after {
+	opacity: 1;
+	width: 100%;
+	height: 3px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+	transition: all linear .3s;
+	background: #111;
+}
+
+.navbar-brand h1 {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 25px;
+	color: #f6D014;
+}
+
+.light2 {
+	background: #111;
+	animation: bg 1s;
+}
+
+@keyframes bg {
+	from {
+		top: -100px
+	}
+
+	to {
+		top: 0
+	}
+}
+
+/*========== navbar End ========*/
+
+
+/*========== Banner Start ========*/
+#banner {
+	padding-top: 98px;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+	background-color: #111;
+}
+
+.bnr-txt {
+	position: absolute;
+	top: -440px;
+	left: -46px;
+}
+
+.bnr-txt h1 {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 40px;
+	color: #111;
+}
+
+.bnr-txt p {
+	font-family: 'Open Sans';
+	font-weight: 500;
+	font-size: 14px;
+	color: #111;
+}
+
+.btn1 {
+	font-size: 15px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	width: 167px;
+	height: 50px;
+	color: #111;
+	background: #f6D014;
+	transition: all linear .3s;
+	margin-top: 10px;
+	border-radius: 40px;
+	box-shadow: 0 14px 18px 0 rgba(17, 17, 17, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.21);
+}
+
+.btn1:hover {
+	background: #111;
+	color: #f6D014;
+}
+
+/*========== Banner End ========*/
+
+/*========== About Start ========*/
+#about {
+	margin-bottom: 40px;
+	position: relative;
+	margin-top: 80px;
+}
+
+.about-pic {
+	padding-bottom: 50px;
+}
+
+.about-us h1 {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 40px;
+	color: #111;
+	
+}
+
+.about-us p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #272727;
+	line-height: 24px;
+	padding-top: 10px;
+}
+
+.about-text h1 {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 60px;
+	color: #111;
+	padding-top: 70px;
+}
+
+.about-text p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #272727;
+	padding-bottom: 100px;
+	padding-top: 20px;
+}
+
+.about-top img {
+	padding-top: 30px;
+}
+
+.about-top h2 {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 25px;
+	color: #111;
+	padding-top: 10px;
+}
+
+.about-top p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #272727;
+	padding-top: 10px;
+	padding-bottom: 100px;
+}
+
+.about-top h2:hover {
+	color: #f6D014;
+}
+
+/*========== About End ========*/
+
+/*========== service Start ========*/
+#service {
+	background-image: url(../images/abt-bg.jpg);
+	height: 520px;
+}
+
+.pro-text h1 {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 40px;
+	color: #fff;
+	padding-top: 100px;
+}
+
+.pro-bar {
+	padding-left: 84px;
+}
+
+.service1 {
+	position: relative;
+	list-style: none;
+	margin: 50px 0;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 14px;
+	color: #fff;
+}
+
+.service1:before {
+	content: "";
+	position: absolute;
+	top: calc(100% + 10px);
+	left: 0;
+	width: 100%;
+	height: 15px;
+	background-color: rgba(17, 17, 17, 0.7);
+	border-radius: 1000px;
+}
+
+.service1:after {
+	content: "";
+	position: absolute;
+	top: calc(100% + 10px);
+	left: 0;
+	width: 0;
+	height: 15px;
+	background-color: #f6D014;
+	border-radius: 1000px;
+	animation-duration: .7s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+
+.service1:after {
+	animation-name: service1;
+}
+
+@keyframes service1 {
+	to {
+		width: 87%;
+	}
+}
+
+.service2 {
+	position: relative;
+	list-style: none;
+	margin: 50px 0;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 14px;
+	color: #fff;
+}
+
+.service2:before {
+	content: "";
+	position: absolute;
+	top: calc(100% + 10px);
+	left: 0;
+	width: 100%;
+	height: 15px;
+	background-color: rgba(17, 17, 17, 0.7);
+	border-radius: 1000px;
+}
+
+.service2:after {
+	content: "";
+	position: absolute;
+	top: calc(100% + 10px);
+	left: 0;
+	width: 0;
+	height: 15px;
+	background-color: #f6D014;
+	border-radius: 1000px;
+	animation-duration: .7s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+
+.service2:after {
+	animation-name: service2;
+}
+
+@keyframes service2 {
+	to {
+		width: 78%;
+	}
+}
+
+.service3 {
+	position: relative;
+	list-style: none;
+	margin: 50px 0;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 14px;
+	color: #fff;
+}
+
+.service3:before {
+	content: "";
+	position: absolute;
+	top: calc(100% + 10px);
+	left: 0;
+	width: 100%;
+	height: 15px;
+	background-color: rgba(17, 17, 17, 0.7);
+	border-radius: 1000px;
+}
+
+.service3:after {
+	content: "";
+	position: absolute;
+	top: calc(100% + 10px);
+	left: 0;
+	width: 0;
+	height: 15px;
+	background-color: #f6D014;
+	border-radius: 1000px;
+	animation-duration: .7s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+
+.service3:after {
+	animation-name: service3;
+}
+
+@keyframes service3 {
+	to {
+		width: 90%;
+	}
+}
+
+/*========== service End ========*/
+
+
+/*========== Project Start ========*/
+#project {
+	padding-top: 90px;
+	padding-bottom: 100px;
+}
+
+.pro-heading h1 {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 40px;
+	color: #111;
+	padding-bottom: 40px;
+}
+
+.project-text b {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 24px;
+	color: #272727;
+}
+
+.project-text b:hover {
+	color: #f6D014;
+}
+
+.project-text p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #272727;
+}
+
+/*========== Project End ========*/
+
+/*========== Testimonial Start ========*/
+.test-txt h1 {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 50px;
+	color: #111;
+}
+
+.test-txt p {
+	padding-bottom: 30px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #272727;
+}
+.test-text p {
+	padding-bottom: 30px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #272727;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.test-text {
+	background: #f6D014;
+	box-shadow: 0 14px 18px 0 rgba(17, 17, 17, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.21);
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #111;
+	padding-top: 50px;
+	padding-bottom: 90px;
+}
+
+.test-text-2 {
+	padding-top: 75px;
+	padding-bottom: 30px;
+	background: #111;
+	box-shadow: 0 14px 18px 0 rgba(17, 17, 17, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.21);
+	border: 3px solid #f6D014;
+}
+
+.test-text-2 h3 {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 20px;
+	color: #fff;
+}
+
+.test-text-2 h5 {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+}
+
+.test-pic {
+	width: 135px;
+	height: 135px;
+	background: #fff;
+	border-radius: 100%;
+	opacity: 100;
+	position: relative;
+	top: -243px;
+	left: 50%;
+	z-index: 999;
+	transform: translateX(-50%);
+}
+
+.test-pic img {
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	border-radius: 50%;
+}
+
+.slide {
+	position: relative;
+}
+
+.slide-left i {
+	width: 50px;
+	height: 50px;
+	background: transparent;
+	font-size: 20px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	color: #111;
+	padding-top: 14px;
+	border: 2px solid #111;
+	position: absolute;
+	top: -107px;
+	left: 15px;
+
+}
+
+.slide-right i {
+	width: 50px;
+	height: 50px;
+	background: transparent;
+	font-size: 20px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	color: #111;
+	padding-top: 14px;
+	border: 2px solid #111;
+	position: absolute;
+	top: -107px;
+	left: 73px;
+}
+
+.slide i:hover {
+	background: #f6D014;
+	color: #111;
+	border: none;
+}
+
+/*========== Testimonial End ========*/
+
+
+/*========== Blog Start ========*/
+#blog {
+	background: #f7f7f7;
+	padding-bottom: 100px;
+
+}
+
+.blog-header h1 {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 50px;
+	color: #111;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.blog-text h3 {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 30px;
+	color: #111;
+	padding-top: 30px;
+}
+
+.blog-text p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #272727;
+	padding-top: 10px;
+}
+
+/*========== Blog End ========*/
+
+
+
+/*========== Video Start ========*/
+#video {
+	background: url(../images/bg-parallax-01.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 200px;
+	padding-bottom: 205px;
+	position: relative;
+}
+
+#video:after {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(17, 17, 17, 0.5);
+}
+
+.video-text h2 {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 30px;
+	color: #f6D014;
+	z-index: 999;
+	position: relative;
+	padding-top: 25px;
+}
+
+.video-text p {
+	font-family: 'Open Sans';
+	font-weight: 500;
+	font-size: 14px;
+	color: #fff;
+	z-index: 999;
+	position: absolute;
+	line-height: 28px;
+	padding-right: 20px;
+	padding-right: 20px;
+}
+
+.round i {
+	font-size: 40px;
+	color: #f6D014;
+	z-index: 9999;
+	position: relative;
+	padding-left: 10px;
+	padding-top: 15px;
+}
+
+.round i:hover {
+	color: #fff;
+}
+
+.round {
+	width: 72px;
+	height: 72px;
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 100%;
+	opacity: 100;
+	position: relative;
+	z-index: 999;
+}
+
+.round:after {
+	position: absolute;
+	content: '';
+	width: 85%;
+	height: 85%;
+	border: 3px solid #f6D014;
+	top: 7%;
+	left: 8%;
+	border-radius: 50%;
+	z-index: 999;
+}
+
+/*========== Video End ========*/
+
+
+/*========== Counter Start ========*/
+#counter {
+	background: #f6D014;
+	padding-top: 72px;
+	padding-bottom: 90px;
+	width: 100%;
+}
+
+.counter-item i {
+	font-size: 48px;
+	color: #111;
+}
+
+.counter-item h2 {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 48px;
+	color: #fff;
+}
+
+.counter-item p {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 14px;
+	color: #111;
+}
+
+/*========== Counter End ========*/
+
+
+/*========== Team part start ========*/
+#team {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.heading h2 {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 50px;
+	color: #111;
+	padding-bottom: 30px;
+}
+
+.heading p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #272727;
+	padding-bottom: 40px
+}
+
+
+.team-img {
+	position: relative;
+}
+
+.team-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(rgb(246, 208, 20), rgb(42, 39, 39));
+	opacity: 0;
+	transition: all linear .3s;
+}
+
+.team-item:hover .team-overlay {
+	opacity: 0.9;
+}
+
+.team-overlay i {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 56px;
+	height: 56px;
+	background: #111;
+	line-height: 56px;
+	color: #fff;
+	font-size: 30px;
+	transition: all linear .3s;
+}
+
+.team-overlay i:hover {
+	background: #f6D014;
+	color: #111;
+}
+
+.team-info {
+	padding-top: 35px;
+}
+
+.team-info h3 {
+	font-size: 18px;
+	color: #111;
+	font-weight: 700;
+	font-family: 'Lato';
+	text-transform: uppercase;
+}
+
+.team-info p {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: #272727;
+	font-weight: 700;
+	font-style: italic;
+	text-transform: capitalize;
+}
+
+/*========== Team part End ========*/
+
+
+/*========== Projects Start ========*/
+#portfolio {
+	padding-bottom: 100px;
+}
+
+.port-text h1 {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 50px;
+	color: #111;
+	padding-bottom: 40px;
+}
+
+.port-text p {
+	font-family: 'Open Sans';
+	font-weight: 500;
+	font-size: 16px;
+	color: #272727;
+	line-height: 28px;
+	padding-bottom: 10px;
+}
+
+.port-btn {
+	padding-bottom: 40px;
+}
+
+.port-img {
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	content: '';
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: #111;
+	opacity: 0;
+	transition: all linear .3s;
+}
+
+.port-img:hover .overlay {
+	opacity: .7;
+}
+
+.font {
+	position: absolute;
+	top: 35%;
+	left: 40%;
+	transform: translateX(-40%);
+	transform: translateY(-35%);
+}
+
+.font .fa-link {
+	font-size: 25px;
+	color: #f6D014;
+	padding-right: 10px;
+}
+
+.font .fa-search {
+	font-size: 25px;
+	color: #f6D014;
+}
+
+
+.info {
+	background: #fbfaf8;
+	position: relative;
+	z-index: 3;
+}
+
+.port-img:hover .info {
+	background: #f6D014;
+}
+
+.info h3 {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 20px;
+	color: #111;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+.port-img:hover .info h3 {
+	color: #111;
+}
+
+.info p {
+	font-family: 'Open Sans';
+	font-weight: 500;
+	font-size: 14px;
+	color: #111;
+	padding-bottom: 30px;
+	padding-left: 30px;
+}
+
+.port-img:hover .info p {
+	color: #111;
+}
+
+/*========== Projects End ========*/
+
+/*========== Contact Start ========*/
+.btn-success {
+	color: #111;
+	background-color: #f6D014;
+	border-color: #f6D014;
+	font-family: 'Open Sans';
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.btn-success:hover {
+	color: #fff;
+	background-color: #111;
+	border-color: #111;
+}
+
+.contact-text h4 {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 50px;
+	color: #111;
+	padding-bottom: 30px;
+}
+
+.contact-text h2 {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 30px;
+	color: #111;
+	padding-bottom: 30px;
+	background: #f6D014;
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+
+/*========== Contact End ========*/
+
+
+/*========== map Start ========*/
+
+#map {
+	padding-bottom: 80px;
+}
+
+#conatct-form {
+	padding-bottom: 80px;
+}
+
+.address {
+	background: #f7f7f7;
+	padding: 20px;
+}
+
+.address h3 {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 30px;
+	color: #111;
+}
+
+.address p {
+	margin-bottom: 0;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #272727;
+}
+
+/*========== map End ========*/
+
+/*========== Footer Start ========*/
+.site-footer {
+	background-color: #111;
+	padding: 45px 0 20px;
+	font-size: 15px;
+	line-height: 24px;
+	color: #fff;
+}
+
+.site-footer hr {
+	border-top-color: #f6D014;
+	opacity: 0.5
+}
+
+.site-footer hr.small {
+	margin: 20px 0
+}
+
+.site-footer h6 {
+	color: #f6D014;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	font-family: 'Lato';
+	font-weight: 600;
+	font-size: 30px;
+
+}
+
+.site-footer a {
+	color: #f6D014;
+	font-size: 14px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.site-footer a:hover {
+	color: #ddd;
+	text-decoration: none;
+}
+
+.footer-links {
+	padding-left: 0;
+	list-style: none
+}
+
+.footer-links li {
+	display: block
+}
+
+.footer-links a {
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Open Sans';
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+	color: #f6D014;
+	text-decoration: none;
+}
+
+.footer-links.inline li {
+	display: inline-block
+}
+
+.site-footer .social-icons {
+	text-align: right
+}
+
+.site-footer .social-icons a {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 6px;
+	margin-right: 0;
+	border-radius: 100%;
+	background-color: #f6D014;
+	font-size: 14px;
+	font-family: 'Open Sans';
+	color: #111;
+}
+
+.copyright-text i {
+	color: #f6D014;
+}
+
+.copyright-text {
+	margin: 0
+}
+
+.social-icons {
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none
+}
+
+.social-icons li {
+	display: inline-block;
+	margin-bottom: 4px
+}
+
+.social-icons li.title {
+	margin-right: 15px;
+	text-transform: uppercase;
+	color: #96a2b2;
+	font-weight: 700;
+	font-size: 13px
+}
+
+.social-icons a {
+	background-color: #eceeef;
+	color: #818a91;
+	font-size: 16px;
+	display: inline-block;
+	line-height: 44px;
+	width: 44px;
+	height: 44px;
+	text-align: center;
+	margin-right: 8px;
+	border-radius: 100%;
+	transition: all .2s linear
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+	color: #fff;
+	background-color: #29aafe
+}
+
+.social-icons.size-sm a {
+	line-height: 34px;
+	height: 34px;
+	width: 34px;
+	font-size: 14px
+}
+
+.social-icons a.facebook:hover {
+	background-color: #3b5998
+}
+
+.social-icons a.twitter:hover {
+	background-color: #00aced
+}
+
+.social-icons a.linkedin:hover {
+	background-color: #007bb6
+}
+
+.social-icons a.dribbble:hover {
+	background-color: #ea4c89
+}
+
+/*========== Footer End ========*/
+
+/*========== typed Start ========*/
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor {
+	opacity: 0;
+	display: none;
+}
+
+/*Custom cursor animation*/
+@keyframes blink {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes blink {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes blink {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+/*========== Typed End ========*/
+
+/*========== Back-top Start ========*/
+.back-top i {
+	width: 40px;
+	height: 40px;
+	background: #f6D014;
+	color: #111;
+	font-size: 20px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+	transition: all .3s ease-in-out;
+}
+
+.back-top {
+	position: fixed;
+	right: 30px;
+	bottom: 20px;
+	z-index: 999;
+}
+
+/*========== Back-top End ========*/
+
+
+/*========== Product Start ========*/
+#brochure {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.brochure-text {
+	border: 10px solid #f2f3f8;
+	padding: 20.7% 20px 18.1%;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 48px;
+}
+
+.brochure-text h1 {
+	color: #111;
+	font-size: 50px;
+	font-weight: 700;
+	font-family: "Lato";
+}
+
+/*========== Product End ========*/
+
+
+
+
+
+
+/*========== About-page Start ========*/
+#about-page .navbar {
+	background: #111;
+}
+
+#about-page .about-us {
+	padding-top: 80px;
+}
+
+#about-page .about-pic {
+	padding-top: 80px;
+}
+
+#about-page .banner {
+	background: #f7f7f7;
+	margin-top: 98px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#about-page .light2 {
+	background: #a79640;
+	animation: bg 1s;
+}
+
+#about-page #about {
+	background: none;
+}
+.bread-text h1 {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 30px;
+	color: #111;
+}
+
+.bread-text a {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 16px;
+	color: #111;
+}
+.bread-text span {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 16px;
+	color: #f6D014;
+}
+/*========== About-page End ========*/
+
+/*========== Blog-page Start ========*/
+#about-page .contact-text h4 {
+	padding-top: 80px;
+}
+#about-page .blog-pic {
+	padding-top: 50px;
+}
+.blog-header p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #272727;
+}
+#about-page #blog {
+	background: none;
+}
+/*========== Blog-page End ========*/
+
+/*========== Services Start ========*/
+.ok {
+	padding: 5px 20px;
+	font-size: 12px;
+	line-height: 1.5;
+	padding-top: 7px;
+	border-radius: 5px;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 12px;
+	background: #f6D014;
+	color: #111;
+	cursor: pointer;
+}
+.ok:hover {
+	background: #fff;
+	color: #111;
+}
+#srvs {
+	background-image: url(../images/bg-1.jpg);
+	
+}
+.srvs-text {
+		padding-bottom: 80px;
+	}
+.hi {
+	padding-top: 100px;
+}
+.srvs-text h5 {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 18px;
+	color: #f6D014;
+	
+}
+
+.srvs-text p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 13px;
+	color: #fff;
+
+}
+.bye h1 {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 50px;
+	color: #111;
+	padding-top: 40px;
+}
+
+.bye p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #272727;
+	padding-bottom: 40px;
+}
+/*========== Services End ========*/
+
+/*========== Projects Start ========*/
+#about-page .port-text h1 {
+	padding-top: 40px;
+}
+/*========== Projects End ========*/
+
+/*========== contact Start ========*/
+#about-page #conatct-form {
+	padding-top: 40px;
+}
+#about-page #project {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+/*========== contact End ========*/
+
+/*========== Product Start ========*/
+/*========== Product End ========*/
+
+/*========== Product Start ========*/
+/*========== Product End ========*/
+
+/*========== Product Start ========*/
+/*========== Product End ========*/
+
+/*========== Product Start ========*/
+/*========== Product End ========*/
+
+/*========== Product Start ========*/
+/*========== Product End ========*/
+
+/*========== Product Start ========*/
+/*========== Product End ========*/
+
+/*========== Product Start ========*/
+/*========== Product End ========*/
